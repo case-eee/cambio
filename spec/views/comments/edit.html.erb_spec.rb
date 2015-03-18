@@ -16,7 +16,7 @@ RSpec.describe "comments/edit", :type => :view do
 
       assert_select "input#comment_body[name=?]", "comment[body]"
 
-      assert_select "input#comment_author_id[name=?]", "comment[author_id]"
+      assert_select "input#comment_user_id[name=?]", "comment[user_id]"
 
       assert_select "input#comment_item_id[name=?]", "comment[item_id]"
     end
