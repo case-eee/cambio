@@ -81,5 +81,3 @@ test:
 production:
   <<: *default
   database: cambio_production
-  username: cambio
-  password: <%= ENV['CAMBIO_DATABASE_PASSWORD'] %>
